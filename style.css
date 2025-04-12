@@ -1,0 +1,177 @@
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.Half-Width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%;
+}
+
+.Half-Width img{
+    width: 100%;
+}
+
+section{
+    height: 500px;
+    margin: 1px;
+}
+
+.banner-one{
+ background-image: url("images/header-bg.png");
+
+}
+
+.banner-two{
+    background-image: url("images/biography-bg.png");
+
+}
+
+.banner-three{
+    background-image: url("images/latest-work-bg.png");
+
+}
+#ocean-design{
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+
+
+.star-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff6b6b, #feca57, #1dd1a1, #54a0ff, #5f27cd);
+    background-size: 400% 400%;
+    clip-path: polygon(
+            50% 0%,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%
+    );
+    animation: gradientShift 5s ease infinite;
+    transition: transform 0.3s;
+    text-align: center;
+    padding: 10px;
+}
+
+.star-button:hover {
+    transform: scale(1.1);
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.airplane-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff6b6b, #feca57, #1dd1a1, #54a0ff, #5f27cd);
+    background-size: 400% 400%;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    clip-path: polygon(0 10%, 90% 0%, 100% 50%, 90% 100%, 0 90%, 15% 50%);
+    animation: gradientShift 5s ease infinite;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.airplane-button:hover {
+    transform: translateX(8px) rotate(1.5deg);
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+
+.photo-box{
+    width: 30%;
+    float: left;
+    margin-left: 3.33%;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.photo-box img{
+    width: 100%;
+
+}
+
+p{
+    text-align: justify;
+}
+
+#the{
+    color: blue;
+    font-size: 50px;
+}
+
+.footer-banner{
+    background-image: url("images/footer-bg.png");
+    }
+
+#footer-complement{
+    font-size: 30px;
+    color: deeppink;
+    text-align: center;
+}
+
+.mail-box{
+    height: 150px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.last{
+    text-align: center;
+}
+
+.boss{
+    height: 300px;
+    width: 100%;
+    padding-left: 550px;
+
+}
+
+footer p{
+    text-align: center;
+}
