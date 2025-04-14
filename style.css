@@ -123,10 +123,17 @@ section{
     border-radius: 10px;
     height: 50%;
     background-color: white;
+    padding: 10px;
+
 }
 .photo-box img{
     width: 100%;
+    height: 100%;
+}
 
+.photo-box iframe{
+    width: 100%;
+    height: 100%;
 }
 
 p{
@@ -174,4 +181,8 @@ p{
 
 footer p{
     text-align: center;
+}
+
+footer audio{
+    padding-left: 600px;
 }
